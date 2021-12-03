@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Enthought Tool Suite :: Enthought, Inc.</title>
+    <meta name="name" content="main" />
+    <meta name="tags" content="" />
+    <meta name="date" content="2012-07-09 22:28" />
+    <meta name="modified" content="2017-11-21 20:14" />
+    <meta name="authors" content="Enthought Inc." />
+    <meta name="summary" content="Main index page" />
+    <meta charset="UTF-8">
+
+
+<style type="text/css" media="all">@import "/theme/css/default.css";</style>
+<style type="text/css" media="all">@import "/theme/css/pages.css";</style>
+<style type="text/css" media="all">@import "/theme/css/mayavi.css";</style>
+<link rel="SHORTCUT ICON" href="/theme/images/favicon.ico" />
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2541099-3";
+urchinTracker();
+</script>
+
+    <meta name="keywords" content="" />
+	<meta name="description" content="The Enthought Tool Suite (ETS) is an open source collection of Python components developed by Enthought and our partners, which we use every day to construct custom scientific applications." />
+
+	<style type="text/css">
+	/* URHERE: top nav tab*/
+	a.nav1, a.nav1:visited  { background: url('/theme/images/nav_projectsOn.png') no-repeat;}
+	a.nav1:hover 			{ background: url('/theme/images/nav_projectsOn.png') no-repeat !important; }
+
+	/* URHERE: left nav hilight */
+	a.navitemETS, a.navitemETS:visited, a.navitemETS:hover  { font-weight: bold; color: #333333 !important; }
+	.FakeButton {	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	border: medium solid #24326e;
+}
+    </style>
+
+</head>
+<body>
+
+<div id="page">
+
+  <div id="pageTop">
+  <!-- START TOP BANNER -->
+ 
+  <table width="900" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="bottom">
+        <td rowspan="2" width="322"><a href="/"><img src="/theme/images/logo-enthought.png" alt="Enthought Home" width="322" height="90" /></a></td>
+        <td align="left" class="topnav" style="padding-left:25px;padding-top:20px;"><a href="/" class="topnav">home</a> &nbsp;|&nbsp; <a href="http://www.enthought.com/" target="_blank" class="topnav">www.enthought.com</a> &nbsp;|&nbsp; <a href="http://www.scipy.org/" target="_blank" class="topnav">www.scipy.org</a> &nbsp;|&nbsp; <a href="/downloads/" class="topnav">installation</a></td>
+   </tr>
+   <tr valign="bottom">
+        <td height="42">
+		    <ul id="navlist">
+			    <li><a href="/projects/" class="nav1"><img src="/theme/images/+___.gif" width="82" height="42" alt="Projects" title="View Enthought Projects" /></a></li>
+				<li><a href="/downloads/" class="nav2"><img src="/theme/images/+___.gif" width="94" height="42" alt="Install" title="View Installation Instructions" /></a></li>
+				<li><a href="/source/" class="nav3"><img src="/theme/images/+___.gif" width="74" height="42" alt="Source" title="View Enthought Source Information" /></a></li>
+				<li><a href="/support/" class="nav4"><img src="/theme/images/+___.gif" width="86" height="42" alt="Support" title="View Enthought Support Information" /></a></li>
+		</ul>
+		</td>
+    </tr>
+	</table>
+
+  
+  </div>
+<img src="/theme/images/bnr_projects.png" alt="Enthought Projects" />
+
+<!-- START LEFT NAV -->
+
+<div id="container">
+<div id="wrapper">
+
+<div id="left-nav">
+<div style="padding-bottom: 100px;">
+<ul id="navitems">
+	<li><a href="/" class="navitemETS">Enthought Tool Suite</a></li>
+	<li><a href="/pages/traits.html" class="navitemTraits">Traits</a>
+    	<ul id="tertnavTraits">
+		<li><a href="/pages/traits.html" class="tnavOv">Overview</a></li>
+		<li><a href="/pages/why-use-traits.html" class="tnavWhy">Why Use Traits?</a> </li>
+		<li><a href="/pages/traits-documentation.html" class="tnavDoc">Documentation</a></li>
+		<li><a href="https://github.com/enthought/traits/issues" target="_blank" >Issues&nbsp;&raquo;</a> </li>
+		<li><a href="/pages/traits-examples.html" class="tnavEx">Example</a></li>
+		<li><a href="https://github.com/enthought/traits/wiki" target="_blank" class="tnavDev">Wiki&nbsp;&raquo;</a></li>
+		</ul>
+	</li>
+	<li><a href="/projects/traits_ui/" class="navitemTraitsUI">TraitsUI</a></li>
+	<li><a href="https://github.com/enthought/enaml">Enaml</a></li>
+	<li><a href="/projects/chaco/" class="navitemChaco">Chaco</a>
+   	    <ul id="tertnavChaco">
+		  <li><a href="/projects/chaco/" class="tnavOv">Overview</a></li>
+		  <!-- <li><a href="/projects/chaco/download.php" class="tnavDL">Download</a></li> -->
+		  <li><a href="http://enthought.github.com/chaco/" class="tnavDoc">Documentation</a></li>
+		  <li><a href="https://github.com/enthought/chaco/issues" target="_blank" >Issues&nbsp;&raquo;</a></li>
+		  <li><a href="https://svn.enthought.com/enthought/wiki/ChacoDevNotes" target="_blank" class="tnavRm">Roadmap&nbsp;&raquo;</a></li>
+		  <li><a href="/projects/chaco/gallery.php" class="tnavSS">Screen Shots</a></li>
+		  <li><a href="/projects/chaco/contact.php" class="tnavSup">Support</a></li>
+		  <li><a href="https://svn.enthought.com/enthought/wiki/ChacoProject" target="_blank" class="tnavDev">Development Details&nbsp;&raquo;</a></li>
+	    </ul>
+	  </li>
+	<li><a href="/pages/mayavi-project.html" class="navitemMayavi">Mayavi</a>
+    	<ul id="tertnavMayavi">
+		<li><a href="/pages/mayavi-project.html" class="tnavOv">Overview</a></li>
+		<!-- <li><a href="/projects/mayavi/download.php" class="tnavDL">Download</a></li> -->
+		<li><a href="/projects/mayavi/documentation.php" class="tnavDoc">Documentation</a></li>
+		<li><a href="https://github.com/enthought/mayavi/issues" target="_blank" >Issues&nbsp;&raquo;</a></li>
+		<li><a href="/projects/mayavi/screenshots.php" class="tnavSS">Screen Shots</a></li>
+		<li><a href="/projects/mayavi/devdetails.php" class="tnavDev">Development Details</a></li>
+		</ul>
+	</li>
+	<li><a href="/projects/enstaller/" class="navitemEnstaller">Enstaller</a>
+	</li>
+	<li><a href="/projects/envisage/" class="navitemEnvisage">Envisage</a>
+    	    <ul id="tertnavEnvisage">
+		      <li><a href="/projects/envisage/" class="tnavOv">Overview</a></li>
+		      <li><a href="/projects/envisage/documentation.php" class="tnavDoc">Documentation</a></li>
+		      <li><a href="https://github.com/enthought/envisage/issues" target="_blank" >Issues&nbsp;&raquo;</a></li>
+		      <li><a href="https://svn.enthought.com/enthought/wiki/EnvisageThree/Roadmap" target="_blank" class="tnavRm">Roadmap&nbsp;&raquo;</a></li>
+		      <li><a href="https://svn.enthought.com/enthought/wiki/Envisage" target="_blank" class="tnavDev">Development Details&nbsp;&raquo;</a></li>
+  	      </ul>
+	</li>
+	<!--<li><a href="/projects/envisage_plugins.php" class="navitemPlugins">EnvisagePlugins</a></li>-->
+
+    <li><a href="/projects/block_canvas/" class="navitemBlockCanvas">BlockCanvas</a></li>
+    <li><a href="https://github.com/enthought/graphcanvas">GraphCanvas</a></li>
+    <li><a href="/projects/enable/" class="navitemEnable">Enable</a>
+      <ul id="tertnavEnable">
+        <li><a href="/projects/enable/" class="tnavOv">Overview</a></li>
+        <li><a href="/projects/enable/documentation.php" class="tnavDoc">Documentation</a></li>
+        <li><a href="https://github.com/enthought/enable/issues">Issues&nbsp;&raquo;</a></li>
+        <li><a href="/projects/enable/devdetails.php" class="tnavDev">Development Details</a></li>
+      </ul>
+    </li>
+    <li><a href="https://github.com/enthought/casuarius">Casuarius</a></li>
+    <li><a href="/projects/app_tools/" class="navitemAppTools">AppTools</a></li>
+    <li><a href="https://github.com/enthought/encore">Encore</a></li>
+    <li><a href="/projects/enthought_base/" class="navitemEnBase">EnthoughtBase</a></li>
+    <li><a href="/projects/code_tools/" class="navitemCodeTools">CodeTools</a></li>
+    <li><a href="/projects/dev_tools.php" class="navitemDevTools">ETSDevTools</a> </li>
+    <li><a href="/projects/sci_math/" class="navitemSciMath">SciMath</a></li>
+    <li><a href="/projects/ets_project_tools.php" class="navitemETSProjectTools">ETSProjectTools</a></li>
+</ul>
+
+</div>
+</div>     <div id="main-content">
+    <h1>Mayavi Project</h1>
+
+    <div class="section" id="d-scientific-data-visualization-and-plotting">
+<h2>3D Scientific Data Visualization and Plotting</h2>
+<div class="float-right-figure figure">
+<img alt="Mayavi samp" src="/images/mayavi-samp.png" />
+</div>
+<p>The Mayavi <cite>project</cite> includes two related &lt;em&gt;packages&lt;/em&gt; for 3-dimensional visualization:</p>
+<ul class="list simple">
+<li><a class="reference internal" href="#mayavi">Mayavi</a> : A tool for <strong>easy and interactive</strong> visualization of data, with
+<strong>seamless integration with Python scientific libraries</strong>.</li>
+<li><a class="reference internal" href="#tvtk">TVTK</a>: A Traits-based wrapper for the Visualization Toolkit, a popular open-source visualization library.</li>
+</ul>
+<p>These libraries operate at different levels of abstraction. TVTK manipulates visualization objects, while Mayavi lets you operate on your data, and then see the results. Most users either use the Mayavi user interface or program to its scripting interface; you probably don't need to interact with TVTK unless you want to create a new Mayavi module.</p>
+<p><a class="reference external" href="http://code.enthought.com/projects/mayavi/docs/development/html/mayavi/installation.html">Installation Options</a></p>
+</div>
+<div class="section" id="mayavi">
+<h2>Mayavi</h2>
+<p>Mayavi seeks to provide easy and interactive visualization of 3-D data. It offers:</p>
+<ul class="list simple">
+<li>An (optional) rich user interface with dialogs to interact with all data and
+objects in the visualization.</li>
+<li>A simple and clean scripting interface in Python, including
+one-liners, or an object-oriented programming interface. Mayavi
+integrates seamlessly with numpy and scipy for 3D plotting and can even
+be used in IPython interactively, similarly to Matplotlib.</li>
+<li>The power of the VTK toolkit, harnessed through these interfaces, without forcing you to learn it.</li>
+</ul>
+<p>Additionally Mayavi is a reusable tool that can be embedded in your applications in different ways or combined with the Envisage application-building framework to assemble domain-specific tools.</p>
+</div>
+<div class="section" id="tvtk">
+<h2>TVTK</h2>
+<p>TVTK wraps VTK objects to provide a convenient, Pythonic API, while supporting Traits attributes and NumPy/SciPy arrays. TVTK is implemented mostly in pure Python, except for a small extension module.
+Developers typically use TVTK to write Mayavi modules, and then use Mayavi to interact with visualizations or create applications.</p>
+<div class="float-left-figure figure">
+<img alt="using Mayavi from IPython" src="/images/mayavi-ipython.png" />
+<p class="caption">Using Mayavi from ipython.</p>
+</div>
+<div class="float-right-figure figure">
+<img alt="the Mayavi application" src="/images/mayavi-boy.png" />
+<p class="caption">The Mayavi application.</p>
+</div>
+</div>
+
+
+		<p>
+		Last updated: Tue 21 November 2017
+		</p>
+
+        </div>
+    </div>
+
+<br clear="all" /></div>
+
+<!-- START FOOTER -->	 
+<div id="pageFooter"><a href="/" class="topnav">Home</a> &nbsp;|&nbsp; <a href="/projects/" class="topnav">Projects</a> &nbsp;|&nbsp; <a href="/downloads/" class="topnav">Install</a> &nbsp;|&nbsp; <a href="/source/" class="topnav">Source</a> &nbsp;|&nbsp; <a href="/support/" class="topnav">Support</a> &nbsp;|&nbsp; <a href="http://www.enthought.com/privacy.php" target="_blank" class="topnav">Privacy</a> &nbsp;|&nbsp; <a href="/license.php" class="topnav">License</a> &nbsp;|&nbsp; <a href="/sitemap.php" class="topnav">Site Map</a><br />
+Copyright &copy; 2008-2017 &nbsp; <a href="http://www.enthought.com" style="color:#FFFFFF;" target="_blank"><strong>Enthought, Inc.</strong></a> &nbsp; All Rights Reserved.</div>
+
+</div>
+
+<script type="text/javascript">
+	<!--//
+	//image pre loader
+	newimageA = new Image();
+	newimageA.src = "/theme/images/nav_projects.png";
+	newimageB = new Image();
+	newimageB.src = "/theme/images/nav_install.png";
+	newimageC = new Image();
+	newimageC.src = "/theme/images/nav_source.png";
+	newimageD = new Image();
+	newimageD.src = "/theme/images/nav_support.png";
+	newimageE = new Image();
+	newimageE.src = "/theme/images/nav_projectsOn.png";
+	newimageF = new Image();
+	newimageF.src = "/theme/images/nav_installOn.png";
+	newimageG = new Image();
+	newimageG.src = "/theme/images/nav_sourceOn.png";
+	newimageH = new Image();
+	newimageH.src = "/theme/images/nav_supportOn.png";
+	//-->
+	</script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-84377-19");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
