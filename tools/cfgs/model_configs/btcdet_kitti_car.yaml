@@ -316,8 +316,7 @@ MODEL:
 
     POST_PROCESSING:
       RECALL_THRESH_LIST: [0.3, 0.5, 0.7]
-#      SCORE_THRESH: 0.1
-      SCORE_THRESH: 0.78
+      SCORE_THRESH: 0.60 # on my machine 0.78 is the optimal threshold, but some people find 0.60 is the best
       OUTPUT_RAW_SCORE: False
 
       EVAL_METRIC: kitti
