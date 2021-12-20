@@ -111,7 +111,7 @@ python -m btcdet.datasets.multifindbestfit
 
 
 
-## Run training:
+## Run Training:
 ```
 cd tools/
 ```
@@ -129,7 +129,7 @@ Multi gpu training, assuming you have 4 gpus:
 bash scripts/dist_train.sh 4  --batch_size 8 --gpu_str "0,1,2,3" --cfg_file ./cfgs/model_configs/btcdet_kitti_car.yaml --output_dir ../output/kitti_car/
 ```
 
-## Run training:
+## Run Testing:
 ```
 cd tools/
 ```
