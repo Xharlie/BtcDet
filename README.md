@@ -128,6 +128,11 @@ Multi gpu training, assuming you have 4 gpus:
 ```
 bash scripts/dist_train.sh 4  --batch_size 8 --gpu_str "0,1,2,3" --cfg_file ./cfgs/model_configs/btcdet_kitti_car.yaml --output_dir ../output/kitti_car/
 ```
+
+## Run training:
+```
+cd tools/
+```
 Single gpu testing for all saved checkpoints, assuming you have 4 gpus:
 ```
 python test.sh 4 --eval-all --cfg_file ./cfgs/model_configs/btcdet_kitti_car.yaml --gpu_str "0" --batch_size 2 --output_dir ../output/kitti_car/ --ckpt_dir  ../output/kitti_car/ckpt/
